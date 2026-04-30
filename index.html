@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Jonathan Huenuanca — Analista de Datos Junior. Power BI, Python, SQL, ETL. Santiago, Chile." />
+  <title>Jonathan Huenuanca · Analista de Datos</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║          NAVEGACIÓN          ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>JH<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre-mi"   class="nav-link">Sobre mí</a></li>
+        <li><a href="#proyectos"  class="nav-link">Proyectos</a></li>
+        <li><a href="#habilidades"class="nav-link">Habilidades</a></li>
+        <li><a href="#experiencia"class="nav-link">Experiencia</a></li>
+        <li><a href="#contacto"   class="nav-link">Contacto</a></li>
+      </ul>
+
+      <a href="mailto:jonathana399@gmail.com" class="btn btn-nav">Contáctame</a>
+
+      <!-- Botón hamburguesa (móvil) -->
+      <button class="hamburger" id="hamburger" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║            HERO              ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="hero" id="inicio">
+    <!-- Fondo decorativo -->
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-overlay"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span>
+        Disponible para trabajar · Santiago, Chile
+      </div>
+
+      <h1 class="hero-title reveal reveal-delay-1">
+        Hola, soy<br/>
+        <span class="gradient-text">Jonathan Huenuanca</span>
+      </h1>
+
+      <p class="hero-role reveal reveal-delay-2">
+        <span class="role-tag">Ingeniero en Informática</span>
+        <span class="role-sep">·</span>
+        <span class="role-tag">Analista de Datos Junior</span>
+      </p>
+
+      <p class="hero-desc reveal reveal-delay-3">
+        Transformo datos en decisiones. Especializado en <strong>Power BI</strong>,
+        <strong>ETL</strong>, <strong>DAX</strong> y <strong>Python</strong>.
+        Con experiencia real en Tanner Servicios Financieros.
+      </p>
+
+      <div class="hero-cta reveal reveal-delay-4">
+        <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+        <a href="https://www.linkedin.com/in/jonathanhuenuanca" target="_blank" rel="noopener" class="btn btn-ghost">
+          LinkedIn ↗
+        </a>
+        <a href="https://github.com/JAHP07" target="_blank" rel="noopener" class="btn btn-ghost">
+          GitHub ↗
+        </a>
+      </div>
+
+      <!-- Stats -->
+      <div class="hero-stats reveal reveal-delay-5">
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span><span class="stat-unit">+</span>
+          <span class="stat-label">Proyectos reales</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="8">0</span><span class="stat-unit">+</span>
+          <span class="stat-label">Tecnologías</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="3">0</span><span class="stat-unit">m</span>
+          <span class="stat-label">Práctica Tanner</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="2025">0</span>
+          <span class="stat-label">Titulado INACAP</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll hint -->
+    <a href="#sobre-mi" class="scroll-hint" aria-label="Scroll">
+      <div class="scroll-arrow"></div>
+    </a>
+  </section>
+
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║          SOBRE MÍ            ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="section" id="sobre-mi">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 01</span>
+        <h2 class="section-title">Sobre mí</h2>
+      </div>
+
+      <div class="about-grid">
+        <!-- Bloque de código -->
+        <div class="code-block reveal">
+          <div class="code-header">
+            <span class="code-dot red"></span>
+            <span class="code-dot yellow"></span>
+            <span class="code-dot green"></span>
+            <span class="code-filename">jonathan.py</span>
+          </div>
+          <pre class="code-body"><code><span class="c-keyword">class</span> <span class="c-class">JonathanHuenuanca</span>:
+
+    nombre    <span class="c-op">=</span> <span class="c-str">"Jonathan Andres Huenuanca Paredes"</span>
+    rol       <span class="c-op">=</span> <span class="c-str">"Analista de Datos Junior"</span>
+    titulo    <span class="c-op">=</span> <span class="c-str">"Ingeniero en Informática — INACAP 2025"</span>
+    ciudad    <span class="c-op">=</span> <span class="c-str">"Puente Alto, Santiago, Chile"</span>
+    email     <span class="c-op">=</span> <span class="c-str">"jonathana399@gmail.com"</span>
+    telefono  <span class="c-op">=</span> <span class="c-str">"+56 9 2756 1503"</span>
+    idiomas   <span class="c-op">=</span> [<span class="c-str">"Español"</span>, <span class="c-str">"Inglés (técnico)"</span>]
+
+    enfoque <span class="c-op">=</span> [
+        <span class="c-str">"Power BI"</span>, <span class="c-str">"ETL"</span>, <span class="c-str">"DAX"</span>,
+        <span class="c-str">"Python"</span>, <span class="c-str">"SQL"</span>, <span class="c-str">"Machine Learning"</span>
+    ]
+
+    disponible <span class="c-op">=</span> <span class="c-bool">True</span>  <span class="c-comment"># ← Buscando trabajo</span></code></pre>
+        </div>
+
+        <!-- Texto -->
+        <div class="about-text reveal reveal-delay-1">
+          <p>
+            Soy un <strong>Analista de Datos Junior</strong> titulado en Ingeniería en Informática,
+            apasionado por convertir datos en información útil para la toma de decisiones.
+          </p>
+          <p>
+            Durante mi práctica en <strong>Tanner Servicios Financieros</strong> desarrollé dashboards
+            de Power BI conectados a SQL Server para el área de Normalización, con pipelines ETL
+            automatizados y medidas DAX para análisis de morosidad y cartera.
+          </p>
+          <p>
+            Mi proyecto de título integró <strong>Machine Learning</strong> (Random Forest) en un
+            sistema Django para optimizar listas de espera en traumatología.
+          </p>
+
+          <div class="about-pills">
+            <span class="pill">📊 Power BI</span>
+            <span class="pill">🐍 Python</span>
+            <span class="pill">🗄️ SQL</span>
+            <span class="pill">⚙️ ETL</span>
+            <span class="pill">🤖 Machine Learning</span>
+            <span class="pill">🌐 Django</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ╔══════════════════════════════════════════════════════════════╗ -->
+  <!-- ║                        PROYECTOS                            ║ -->
+  <!-- ║                                                              ║ -->
+  <!-- ║  👉 AQUÍ AGREGAS TUS PROYECTOS FUTUROS                      ║ -->
+  <!-- ║     Copia un bloque <article class="project-card">          ║ -->
+  <!-- ║     y pégalo justo después del último proyecto.             ║ -->
+  <!-- ╚══════════════════════════════════════════════════════════════╝ -->
+  <section class="section section-dark" id="proyectos">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 02</span>
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-desc">
+          Trabajo real en práctica profesional y proyecto de título.
+          Más proyectos en <a href="https://github.com/JAHP07" target="_blank" rel="noopener" class="link-accent">GitHub ↗</a>
+        </p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- ══════════════════════════════════ -->
+        <!--  PROYECTO 1 — TANNER (DESTACADO)  -->
+        <!-- ══════════════════════════════════ -->
+        <article class="project-card project-card--featured reveal">
+          <div class="project-header">
+            <div class="project-icon">📊</div>
+            <div class="project-meta">
+              <span class="project-period">Mar – May 2025</span>
+              <span class="project-type">Práctica Profesional</span>
+            </div>
+          </div>
+
+          <!-- Vista previa estilo Power BI -->
+          <div class="pbi-mockup">
+            <div class="pbi-topbar">
+              <div class="pbi-tabs">
+                <span class="pbi-tab active">Morosidad</span>
+                <span class="pbi-tab">Cartera</span>
+                <span class="pbi-tab">Ejecutivos</span>
+              </div>
+            </div>
+            <div class="pbi-body">
+              <div class="pbi-kpis">
+                <div class="pbi-kpi">
+                  <div class="pbi-kpi-val amber">$2.4M</div>
+                  <div class="pbi-kpi-lbl">Cartera Total</div>
+                </div>
+                <div class="pbi-kpi">
+                  <div class="pbi-kpi-val red">847</div>
+                  <div class="pbi-kpi-lbl">Cuotas Vencidas</div>
+                </div>
+                <div class="pbi-kpi">
+                  <div class="pbi-kpi-val cyan">92%</div>
+                  <div class="pbi-kpi-lbl">Normalización</div>
+                </div>
+              </div>
+              <div class="pbi-charts">
+                <div class="pbi-chart bar-chart-mock">
+                  <div class="mock-bar" style="height:45%"></div>
+                  <div class="mock-bar" style="height:72%"></div>
+                  <div class="mock-bar" style="height:58%"></div>
+                  <div class="mock-bar" style="height:88%"></div>
+                  <div class="mock-bar" style="height:64%"></div>
+                  <div class="mock-bar" style="height:91%"></div>
+                </div>
+                <div class="pbi-chart line-chart-mock">
+                  <svg viewBox="0 0 200 80" preserveAspectRatio="none">
+                    <defs>
+                      <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="#22d3ee" stop-opacity=".4"/>
+                        <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+                      </linearGradient>
+                    </defs>
+                    <path d="M0,65 C20,58 35,40 55,42 S80,22 100,20 S140,28 160,18 S185,14 200,16" stroke="#22d3ee" stroke-width="2" fill="none"/>
+                    <path d="M0,65 C20,58 35,40 55,42 S80,22 100,20 S140,28 160,18 S185,14 200,16 L200,80 L0,80Z" fill="url(#lineGrad)"/>
+                  </svg>
+                </div>
+                <div class="pbi-chart donut-mock">
+                  <svg viewBox="0 0 60 60">
+                    <circle cx="30" cy="30" r="22" fill="none" stroke="#1e2d40" stroke-width="10"/>
+                    <circle cx="30" cy="30" r="22" fill="none" stroke="#22d3ee" stroke-width="10" stroke-dasharray="69 138" stroke-dashoffset="35" stroke-linecap="round"/>
+                    <circle cx="30" cy="30" r="22" fill="none" stroke="#fb923c" stroke-width="10" stroke-dasharray="41 138" stroke-dashoffset="-34" stroke-linecap="round"/>
+                    <text x="30" y="34" text-anchor="middle" fill="#e2e8f0" font-size="8" font-family="JetBrains Mono">50%</text>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-body">
+            <h3 class="project-title">Dashboard de Morosidad y Cartera</h3>
+            <p class="project-company">Tanner Servicios Financieros S.A.</p>
+            <p class="project-desc">
+              Dashboards Power BI para el Área de Normalización conectados a SQL Server.
+              Pipeline ETL con Power Query, medidas DAX para cuotas vencidas e indicadores
+              históricos. Filtros dinámicos por ejecutivo, zona y estado de deuda. Automatización
+              con Power Automate e integración con SharePoint y Google Forms.
+            </p>
+            <div class="project-tags">
+              <span class="tag amber">Power BI</span>
+              <span class="tag cyan">SQL Server</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Power Query</span>
+              <span class="tag">Power Automate</span>
+              <span class="tag">SharePoint</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JAHP07" target="_blank" rel="noopener" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                Ver en GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ═══════════════════════════════════ -->
+        <!--  PROYECTO 2 — SISTEMA LISTA ESPERA -->
+        <!-- ═══════════════════════════════════ -->
+        <article class="project-card reveal reveal-delay-1">
+          <div class="project-header">
+            <div class="project-icon">🏥</div>
+            <div class="project-meta">
+              <span class="project-period">2025</span>
+              <span class="project-type">Proyecto de Título</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Sistema de Lista de Espera con Priorización Inteligente</h3>
+            <p class="project-company">INACAP — Proyecto de Titulación</p>
+            <p class="project-desc">
+              Sistema web full-stack en Django para traumatología. Modelo Random Forest
+              (scikit-learn) para priorizar pacientes según edad, diagnóstico y tiempo
+              en espera. Dashboard en tiempo real con Chart.js, MySQL y notificaciones
+              automáticas por correo.
+            </p>
+            <div class="project-tags">
+              <span class="tag purple">Machine Learning</span>
+              <span class="tag cyan">Django</span>
+              <span class="tag">Python</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">scikit-learn</span>
+              <span class="tag">Chart.js</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JAHP07" target="_blank" rel="noopener" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                Ver en GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ══════════════════════════════════ -->
+        <!--  PROYECTO 3 — ANÁLISIS SÍSMICO    -->
+        <!-- ══════════════════════════════════ -->
+        <article class="project-card reveal reveal-delay-2">
+          <div class="project-header">
+            <div class="project-icon">🌋</div>
+            <div class="project-meta">
+              <span class="project-period">2024</span>
+              <span class="project-type">Portafolio</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Análisis Sísmico Chile</h3>
+            <p class="project-company">EDA + Visualización · Python</p>
+            <p class="project-desc">
+              Scraping automatizado de sismologia.cl con BeautifulSoup. Análisis
+              exploratorio de frecuencia, magnitud y distribución geográfica de
+              sismos en Chile. Visualizaciones con seaborn y matplotlib.
+            </p>
+            <div class="project-tags">
+              <span class="tag cyan">Python</span>
+              <span class="tag red">Web Scraping</span>
+              <span class="tag">pandas</span>
+              <span class="tag">seaborn</span>
+              <span class="tag">EDA</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/JAHP07" target="_blank" rel="noopener" class="project-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+                Ver en GitHub
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- ══════════════════════════════════════════════════════ -->
+        <!--  ✅ PLANTILLA PARA AGREGAR UN PROYECTO NUEVO         -->
+        <!--                                                        -->
+        <!--  Copia desde <article> hasta </article>               -->
+        <!--  y pégalo aquí abajo. Reemplaza los textos.           -->
+        <!--                                                        -->
+        <!-- <article class="project-card reveal">                  -->
+        <!--   <div class="project-header">                         -->
+        <!--     <div class="project-icon">📌</div>                 -->
+        <!--     <div class="project-meta">                         -->
+        <!--       <span class="project-period">MES AÑO</span>     -->
+        <!--       <span class="project-type">Portafolio</span>    -->
+        <!--     </div>                                             -->
+        <!--   </div>                                               -->
+        <!--   <div class="project-body">                           -->
+        <!--     <h3 class="project-title">Nombre del Proyecto</h3> -->
+        <!--     <p class="project-company">Tecnología principal</p> -->
+        <!--     <p class="project-desc">Descripción...</p>         -->
+        <!--     <div class="project-tags">                         -->
+        <!--       <span class="tag cyan">Python</span>             -->
+        <!--       <span class="tag amber">Power BI</span>          -->
+        <!--       <span class="tag">pandas</span>                  -->
+        <!--     </div>                                             -->
+        <!--     <div class="project-links">                        -->
+        <!--       <a href="URL_GITHUB" class="project-link">       -->
+        <!--         Ver en GitHub                                  -->
+        <!--       </a>                                             -->
+        <!--     </div>                                             -->
+        <!--   </div>                                               -->
+        <!-- </article>                                             -->
+        <!-- ══════════════════════════════════════════════════════ -->
+
+      </div><!-- /projects-grid -->
+    </div>
+  </section>
+
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║         HABILIDADES          ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="section" id="habilidades">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 03</span>
+        <h2 class="section-title">Habilidades</h2>
+        <p class="section-desc">Herramientas que uso en proyectos reales.</p>
+      </div>
+
+      <div class="skills-wrapper">
+
+        <!-- Categoría 1 -->
+        <div class="skill-category reveal">
+          <h3 class="skill-cat-title">📊 Business Intelligence</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Power BI</span>
+                <span class="skill-pct">90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill amber" data-width="90"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">DAX</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill amber" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">ETL / Power Query</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill amber" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Power Automate</span>
+                <span class="skill-pct">72%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill amber" data-width="72"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Excel Avanzado</span>
+                <span class="skill-pct">82%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill amber" data-width="82"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría 2 -->
+        <div class="skill-category reveal reveal-delay-1">
+          <h3 class="skill-cat-title">🐍 Python & Datos</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Python</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill cyan" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">pandas / NumPy</span>
+                <span class="skill-pct">78%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill cyan" data-width="78"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">matplotlib / seaborn</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill cyan" data-width="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">scikit-learn</span>
+                <span class="skill-pct">65%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill cyan" data-width="65"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Web Scraping</span>
+                <span class="skill-pct">68%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill cyan" data-width="68"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Categoría 3 -->
+        <div class="skill-category reveal reveal-delay-2">
+          <h3 class="skill-cat-title">🗄️ Bases de Datos & Web</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">SQL (SQL Server / MySQL)</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill purple" data-width="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Django</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill purple" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML / CSS / JavaScript</span>
+                <span class="skill-pct">72%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill purple" data-width="72"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">RStudio</span>
+                <span class="skill-pct">55%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill purple" data-width="55"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Scrum / Ágil</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill purple" data-width="70"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /skills-wrapper -->
+    </div>
+  </section>
+
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║         EXPERIENCIA          ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="section section-dark" id="experiencia">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 04</span>
+        <h2 class="section-title">Experiencia & Formación</h2>
+      </div>
+
+      <div class="timeline">
+
+        <!-- Item 1: Tanner -->
+        <div class="timeline-item reveal">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">Mar 2025 — May 2025</div>
+            <h3 class="timeline-role">Analista de Datos — Práctica Profesional</h3>
+            <p class="timeline-company">
+              <span class="company-dot amber"></span>
+              Tanner Servicios Financieros S.A. · Área de Normalización
+            </p>
+            <ul class="timeline-bullets">
+              <li>Dashboards Power BI para morosidad, cartera y control de clientes conectados a SQL Server</li>
+              <li>Pipeline ETL con Power Query y automatización con Power Automate</li>
+              <li>Modelado relacional con cardinalidades, relaciones y tablas intermedias</li>
+              <li>Medidas DAX para cuotas vencidas, próximos vencimientos e indicadores históricos</li>
+              <li>Filtros dinámicos por RUT, ejecutivo, zona, tipo de cliente y estado de deuda</li>
+              <li>Integración con SharePoint y Google Forms para datos operativos</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag amber">Power BI</span>
+              <span class="tag cyan">SQL Server</span>
+              <span class="tag">DAX</span>
+              <span class="tag">Power Query</span>
+              <span class="tag">Power Automate</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Proyecto Título -->
+        <div class="timeline-item reveal reveal-delay-1">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2025</div>
+            <h3 class="timeline-role">Proyecto de Título — Sistema de Lista de Espera</h3>
+            <p class="timeline-company">
+              <span class="company-dot purple"></span>
+              INACAP — Proyecto de Titulación
+            </p>
+            <ul class="timeline-bullets">
+              <li>Full-stack Django con Machine Learning para traumatología</li>
+              <li>Random Forest para priorización automática de pacientes</li>
+              <li>Dashboard en tiempo real con Chart.js y notificaciones automáticas por correo</li>
+              <li>Seguridad por roles, CSRF y base de datos MySQL normalizada</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag purple">ML / Random Forest</span>
+              <span class="tag cyan">Django</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Chart.js</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: Educación -->
+        <div class="timeline-item reveal reveal-delay-2">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2021 — 2025</div>
+            <h3 class="timeline-role">Ingeniero en Informática (Titulado)</h3>
+            <p class="timeline-company">
+              <span class="company-dot cyan"></span>
+              Universidad Tecnológica de Chile — INACAP, Sede Puente Alto
+            </p>
+            <ul class="timeline-bullets">
+              <li>Formación en análisis de datos, BI, desarrollo web y bases de datos relacionales</li>
+              <li>Metodologías ágiles (Scrum), patrón MVT y diseño de sistemas de información</li>
+              <li>Inglés técnico — lectura de documentación</li>
+            </ul>
+            <div class="timeline-tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">Django</span>
+              <span class="tag">Scrum</span>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /timeline -->
+    </div>
+  </section>
+
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║           CONTACTO           ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <section class="section contact-section" id="contacto">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">// 05</span>
+        <h2 class="section-title">Hablemos</h2>
+        <p class="section-desc">Disponible para roles de Data Analyst Junior en Santiago, Chile.</p>
+      </div>
+
+      <div class="contact-grid">
+        <a href="mailto:jonathana399@gmail.com" class="contact-card reveal">
+          <div class="contact-icon">✉️</div>
+          <div>
+            <div class="contact-label">Email</div>
+            <div class="contact-value">jonathana399@gmail.com</div>
+          </div>
+        </a>
+        <a href="tel:+56927561503" class="contact-card reveal reveal-delay-1">
+          <div class="contact-icon">📱</div>
+          <div>
+            <div class="contact-label">Teléfono</div>
+            <div class="contact-value">+56 9 2756 1503</div>
+          </div>
+        </a>
+        <a href="https://www.linkedin.com/in/jonathanhuenuanca" target="_blank" rel="noopener" class="contact-card reveal reveal-delay-2">
+          <div class="contact-icon">💼</div>
+          <div>
+            <div class="contact-label">LinkedIn</div>
+            <div class="contact-value">jonathanhuenuanca</div>
+          </div>
+        </a>
+        <a href="https://github.com/JAHP07" target="_blank" rel="noopener" class="contact-card reveal reveal-delay-3">
+          <div class="contact-icon">⌨️</div>
+          <div>
+            <div class="contact-label">GitHub</div>
+            <div class="contact-value">JAHP07</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="contact-cta reveal">
+        <a href="mailto:jonathana399@gmail.com" class="btn btn-primary btn-large">
+          Enviar mensaje →
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ╔══════════════════════════════╗ -->
+  <!-- ║            FOOTER            ║ -->
+  <!-- ╚══════════════════════════════╝ -->
+  <footer>
+    <div class="container footer-inner">
+      <p class="footer-copy">
+        © 2025 <span class="footer-name">Jonathan Andres Huenuanca Paredes</span>
+        · Ingeniero en Informática · Santiago, Chile
+      </p>
+      <p class="footer-built">
+        Hecho con HTML · CSS · JS · Publicado en <a href="https://github.com/JAHP07" target="_blank" rel="noopener" class="link-accent">GitHub Pages ↗</a>
+      </p>
+    </div>
+  </footer>
+
+
+  <!-- JS -->
+  <script src="js/main.js"></script>
+</body>
+</html>
